@@ -14,9 +14,9 @@ The file `data.csv` contains....
 |`nomination_no`   |Unique number for the senate nomination.|
 |`congress_no`      ||
 |`session`      ||
-|`democrats`      ||
-|`republicans`      ||
-|`independets`      ||
+|`democrats`|The number of democratic senators at the time of the confirmation|
+|`republicans`|The number of republican senators at the time of the confirmation|
+|`independets`|The number of independent senators at the time of the confirmation|
 |`record_vote_number`||
 |`yea_votes`    |The number of senetors that votes 'yea' to the confirmation of the judge.|
 |`nay_votes`|The number of senetors that votes 'nay' to the confirmation of the judge.|
