@@ -9,16 +9,16 @@ The file `data.csv` contains....
 | Header         | Definition |
 |----------------|------------|
 |`name`|The name of the appointed judge.|
-|`circuit`  |The circuit the judge was appointed to.|
-|`confirmation_date`   |The date the judge was confirmed by the senate.|
-|`nomination_no`   |Unique number for the senate nomination.|
-|`congress_no`      ||
-|`session`      ||
+|`circuit`|The circuit the judge was appointed to.|
+|`confirmation_date`|The date the judge was confirmed by the senate.|
+|`nomination_no`|Unique number for the senate nomination.|
+|`congress_no`||
+|`session`||
 |`democrats`|The number of democratic senators at the time of the confirmation.|
 |`republicans`|The number of republican senators at the time of the confirmation.|
 |`independets`|The number of independent senators at the time of the confirmation.|
 |`record_vote_number`||
-|`yea_votes`    |The number of senators that voted 'yea' to the confirmation of the judge.|
+|`yea_votes`|The number of senators that voted 'yea' to the confirmation of the judge.|
 |`nay_votes`|The number of senators that voted 'nay' to the confirmation of the judge.|
 |`vote_id`|Unique numerical id for each confirmation vote. |
 |`D_yea`|The number of **democratic** senators that voted **'yea'** to the confirmation of the judge.|
