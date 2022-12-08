@@ -18,8 +18,8 @@ The file `data.csv` contains....
 |`republicans`|The number of republican senators at the time of the confirmation.|
 |`independets`|The number of independent senators at the time of the confirmation.|
 |`record_vote_number`||
-|`yea_votes`|The number of senators that voted 'yea' to the confirmation of the judge.|
-|`nay_votes`|The number of senators that voted 'nay' to the confirmation of the judge.|
+|`yea_votes`|The number of senators that voted 'yea' to the confirmation of the judge. If value is missing, the judge was confirmed by voice vote.|
+|`nay_votes`|The number of senators that voted 'nay' to the confirmation of the judge. If value is missing, the judge was confirmed by voice vote.|
 |`vote_id`|Unique numerical id for each confirmation vote. |
 |`D_yea`|The number of **democratic** senators that voted **'yea'** to the confirmation of the judge.|
 |`D_nay`|The number of **democratic** senators that voted **'nay'** to the confirmation of the judge.|
