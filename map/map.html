@@ -126,7 +126,7 @@ WHATEVER INTRODUCTORY TEXT YOU WANT CAN GO INTO THE ARTICLEPLACE DIV
 	<div id='map'>
 		<div id="dropdown">
 			<select id="select-menu">
-				<option value="">All Groups</option>
+					<!-- <option value="">All Groups</option>-->
 			</select>
 		</div>
 		<div id='color-scale'>
@@ -182,8 +182,8 @@ ALL THE COMMENTS FROM HERE WE'LL BE IN JAVASCRIPT COMMENTS //
 		var map = new mapboxgl.Map({
 			container: 'map', // HTML container ID
 			style: 'mapbox://styles/mapbox/light-v11', // style URL
-			center: [-109.83447392543904, 46.84011645425443], // starting position as [lng, lat], this is set on Iceland, fix it!!
-			zoom: 3, //zoom runs from 0-22, this randomly in the middle, lines 297-298 auto center and zoom
+			center: [-95.51317470191553, 40.00728188831033], // starting position as [lng, lat], this is set on Iceland, fix it!!
+			zoom: 3.5, //zoom runs from 0-22, this randomly in the middle, lines 297-298 auto center and zoom
 			projection: 'albers' //nice to have this, you could comment out this line if you are Zoomed in
 		});
 		map.addControl(new mapboxgl.NavigationControl(), 'top-left');
