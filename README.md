@@ -1,6 +1,6 @@
 ## The Federal Courts Project
 
-The ultimate goal of this project is to build a centralized database of the appointed federal judgeships across the 13 district appellate courts since 2001.
+The ultimate goal of this project is to build a centralized database of the appointed federal judgeships across the 13 district appellate courts during the 107th to 117th congress (2001-2022).
 
 The file `data.csv` contains....
 
