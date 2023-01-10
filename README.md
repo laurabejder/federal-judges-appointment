@@ -2,9 +2,7 @@
 
 The ultimate goal of this project is to build a centralized database of the appointed federal judgeships across the 13 district appellate courts during the 107th to 117th congress (2001-2022).
 
-The file `data.csv` contains....
-
-
+The file `data.csv` contains the full dataset of all confirmed judges, the circuit they were confirmed to and the senate votes. The file includes following variables:
 
 | Header         | Definition |
 |----------------|------------|
@@ -32,3 +30,9 @@ The file `data.csv` contains....
 |`I_no_vote`|The number of **independent** senators that **did not vote** for the confirmation of the judge.|
 |`vote`|A list of each senators name and vote|
 
+### Inside the `data` directory:
+- `data.csv`: The complete dataset as explained above. 
+- `nominations.csv`: - tabular version of the html scrapes.  
+- `party_votes.csv`: The initial dataset of the scrape of the votes of all senators for each nomination.
+- `voteinfo.csv`: Contains all the information needed to loop through customized links to each nomination and scrape the votes of all senators for each nomination. 
+- `votes.csv`: File containing all judges, their names, circuit number, confirmation date, congress number, nomination number, confirmation date and number of yea and nay votes from the senate confirmation. It is the cleaned and broken down version of `nominations.csv`.
