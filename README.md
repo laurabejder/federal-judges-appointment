@@ -32,7 +32,7 @@ The file `data.csv` contains the full dataset of all confirmed judges, the circu
 
 ### Inside the `data` directory:
 - `data.csv`: The complete dataset as explained above. 
-- `nominations.csv`: - tabular version of the html scrapes.  
+- `nominations.csv`: This file contains the tabular version of the html scrapes.  
 - `party_votes.csv`: The initial dataset of the scrape of the votes of all senators for each nomination.
 - `voteinfo.csv`: Contains all the information needed to loop through customized links to each nomination and scrape the votes of all senators for each nomination. 
 - `votes.csv`: File containing all judges, their names, circuit number, confirmation date, congress number, nomination number, confirmation date and number of yea and nay votes from the senate confirmation. It is the cleaned and broken down version of `nominations.csv`.
