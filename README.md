@@ -2,6 +2,8 @@
 
 The ultimate goal of this project is to build a centralized database of the appointed federal judgeships across the 13 district appellate courts during the 107th to 117th congress (2001-2022).
 
+The analysis of the data has been written into the article [Senate confirmations of circuit court judges have become more politically divided](https://laurabejder.github.io/federal_judges_appointment/).
+
 The file `data.csv` contains the full dataset of all confirmed judges, the circuit they were confirmed to and the senate votes. The file includes following variables:
 
 | Header         | Definition |
