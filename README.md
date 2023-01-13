@@ -32,7 +32,15 @@ The file `data.csv` contains the full dataset of all confirmed judges, the circu
 
 ### Inside the `data` directory:
 - `data.csv`: The complete dataset as explained above. 
-- `nominations.csv`: - tabular version of the html scrapes.  
+- `nominations.csv`: This file contains the tabular version of the html scrapes.  
 - `party_votes.csv`: The initial dataset of the scrape of the votes of all senators for each nomination.
 - `voteinfo.csv`: Contains all the information needed to loop through customized links to each nomination and scrape the votes of all senators for each nomination. 
 - `votes.csv`: File containing all judges, their names, circuit number, confirmation date, congress number, nomination number, confirmation date and number of yea and nay votes from the senate confirmation. It is the cleaned and broken down version of `nominations.csv`.
+
+### Inside the `html_scrapes` directory:
+- 12 html files containing the original scrape of all individuals confirmed by the judiciary committee in the senate from 2001 to 2022. These files are the basis for the list of all confirmed circuit judges and the yea and nay votes in the Senate. 
+
+### Inside the `map` directory:
+- `courts13_join.json`: Geojson shapefile of all 13 district appellate courts.
+- `map.html`: HTML code for an interactive map displaying each appellate courts district and the judges confirmed to that district including the partisan votes for each judge. Can be broken down to each congress. 
+- `geo-data.js`: The final file combining the data from `data.csv` converted into js and the geojson shapefiles. The basis for the visualization created in `map.html`.
