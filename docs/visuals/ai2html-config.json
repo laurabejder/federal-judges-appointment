@@ -1,0 +1,30 @@
+{	
+	"fonts": [
+        {
+            "aifont": "SourceSansRoman-Semibold",
+            "family": "Source Sans Pro",
+            "weight": "600",
+            "style": ""
+        },
+        {
+            "aifont": "SourceSansRoman-Regular",
+            "family": "Source Sans Pro",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "SourceSansRoman-Bold",
+            "family": "Source Sans Pro",
+            "weight": "700",
+            "style": ""
+        }
+
+
+    ]
+}
+
+
+
+
+
+
